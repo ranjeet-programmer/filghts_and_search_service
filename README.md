@@ -24,6 +24,13 @@
         "host": "127.0.0.1",
         "dialect": "mysql"
     },
+  "development": {
+    "username": <your_db_name>,
+    "password": <your_db_pass>,
+    "database": "your_db_name",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
 
   }
 
