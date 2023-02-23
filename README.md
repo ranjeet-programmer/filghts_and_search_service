@@ -45,3 +45,11 @@
 - Fligth Table
 - Airport Table
 - City Table
+
+# Tables
+
+### City Table :- id , name , created_at , updated_at
+
+### Airport Table :- id , name , address , city_id , created_at , updated_at
+
+      Relationship =>  City has many airports but airports belong to a city only [ 1 to M ]
