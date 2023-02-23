@@ -40,8 +40,19 @@ class CityService {
 
   async getCity(cityId) {
     try {
-      const city = this.cityRepository.getCity(cityId);
+      const city = await this.cityRepository.getCity(cityId);
       return city;
+    } catch (error) {
+      console.log("something went wrong at servicec layer");
+
+      throw { error };
+    }
+  }
+
+  async getAllCities() {
+    try {
+      const cities = await this.cityRepository.getAllCities();
+      return cities;
     } catch (error) {
       console.log("something went wrong at servicec layer");
 
