@@ -15,5 +15,6 @@ router.patch("/city/:id", CityController.update);
 // flights routes
 
 router.post("/flights", FlightController.create);
+router.get("/flights", FlightController.getAll);
 
 module.exports = router;
