@@ -2,6 +2,7 @@ const {
   FlightRespository,
   AirplaneRespository,
 } = require("../repository/index");
+
 const { compareTime } = require("../utils/helper");
 
 class FlightService {
