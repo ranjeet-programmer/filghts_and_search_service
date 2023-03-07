@@ -56,6 +56,7 @@ class FlightService {
         flightId,
         data
       );
+
       return response;
     } catch (error) {
       console.log("Something went wrong at service layer");
